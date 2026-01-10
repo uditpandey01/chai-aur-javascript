@@ -25,3 +25,5 @@ console.log(valueInNumber1)  // but here when we print this value it will return
 // we can convert number into string by replacing Number to String.
 // and to convert number into boolean replace Number to Boolean.
 
+
+
