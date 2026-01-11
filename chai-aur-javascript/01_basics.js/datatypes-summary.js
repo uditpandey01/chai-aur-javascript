@@ -65,3 +65,33 @@ console.log(typeof anotherId);
 // int x = 10; // x is a variable of type int
 // String name = "John"; // name is a variable of type String
 // JavaScript's dynamic typing allows for more flexibility but can lead to potential runtime errors if not handled carefully. Static typing, on the other hand, provides better type safety at the cost of some initial verbosity and strictness.
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  memory allocation
+// STACK (USED FOR PRIMITIVE DATATYPES)   // HEAP (USED FOR NON-PRIMITIVE)
+// all primitives gets stored in stack and non primitive in heap
+// examples
+let myyoutubechannel = "chaiaurcode"
+let newname = myyoutubechannel
+newname = "codeaurchai"
+console.log(myyoutubechannel) //outputs : chaiaurcode
+console.log(newname)   //outputs : codeaurchai
+// here no changes in the original myyoutubechannel are done infact a copy is made and changed
+
+//example 
+let userone =  {
+  name : "udit",
+  email : "udit123@gmail.com"
+}
+let usertwo = userone
+
+usertwo.email = "harshit123@gmail.com"
+
+// now since objects are stored in heap so reference is passed hence changes are made in same address
+console.log(userone)  // outputs : email = "harshit123@gmail.com"
+console.log(usertwo)  // outputs : email = "harshit123@gmail.com"
+// changes are made in original address 
