@@ -73,3 +73,45 @@ users[1].email
 
 // this is used to check whether a particular property belongs to an object
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+
+// object de-structucturing
+// allows you to "unpack" properties from an object directly into distinct variables.
+// Instead of accessing properties one by one using dot notation (obj.name), you extract what you need in a single line.
+
+
+// course.courseInstructor
+// course.price etc
+
+
+// we can use this single line 
+// const {courseInstructor , price , coursename} = course
+
+
+// we can also change name also 
+// const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+// console.log(instructor);
+
+// whenever we get data from any api we get in the form of object without name
+// and we can access each property by de constructing
+
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
