@@ -1,3 +1,6 @@
+// for in loop
+
+
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
@@ -6,8 +9,11 @@ const myObject = {
 }
 
 for (const key in myObject) {
-    //console.log(`${key} shortcut is for ${myObject[key]}`);
+    //console.log(`${key} shortcut is for ${myObject[key]}`);      // to print key we simply use the name of key 
+                                                                   // to print values we use (objectname[keyname])
 }
+
+// here objects are iterble with for in loops 
 
 const programming = ["js", "rb", "py", "java", "cpp"]
 
