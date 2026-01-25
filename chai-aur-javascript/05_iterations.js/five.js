@@ -2,7 +2,7 @@
 
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){      // this is the syntax    arrayname.forEach(function (keyname) {})
+// coding.forEach( function (val){      // this is the syntax    arrayname.forEach(function (keyname) {})  (this is known as callback)
 //     console.log(val);
 // } )
 
